@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communauté</title>
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.jpg" alt="Logo du site" width="150">
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="categories.html">Catégories</a>
+            <a href="tarification.html">Tarification</a>
+            <a href="profil.html">Profil</a>
+            <a href="communaute.html">Communauté</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="discussion">
+            <h2>Discussions Récentes</h2>
+            <p>Participez aux discussions en cours et partagez vos idées !</p>
+            <ul>
+                <li>
+                    <strong>Comment débuter en développement web ?</strong>
+                    <p>Posté par <em>Utilisateur1</em> - <em>15 Octobre 2024</em></p>
+                </li>
+                <li>
+                    <strong>Avis sur le cours de Data Science</strong>
+                    <p>Posté par <em>Utilisateur2</em> - <em>14 Octobre 2024</em></p>
+                </li>
+                <li>
+                    <strong>Meilleurs outils pour la conception graphique</strong>
+                    <p>Posté par <em>Utilisateur3</em> - <em>13 Octobre 2024</em></p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="poser-question">
+            <h2>Poser une Question</h2>
+            <form action="poster_question.php" method="post">
+                <label for="question">Votre Question :</label><br>
+                <textarea id="question" name="question" rows="4" style="width: 100%;" placeholder="Posez votre question ici..." required></textarea><br>
+                <input type="submit" value="Envoyer la question">
+            </form>
+        </section>
+
+        <section id="partager-projet">
+            <h2>Partager un Projet</h2>
+            <form action="partager_projet.php" method="post">
+                <label for="titre">Titre du Projet :</label><br>
+                <input type="text" id="titre" name="titre" placeholder="Titre de votre projet" required><br><br>
+
+                <label for="description_projet">Description :</label><br>
+                <textarea id="description_projet" name="description_projet" rows="4" style="width: 100%;" placeholder="Décrivez votre projet ici..." required></textarea><br>
+
+                <input type="submit" value="Partager le projet">
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
