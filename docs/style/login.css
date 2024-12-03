@@ -1,0 +1,136 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+/* En-tête */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+header img {
+    width: 100px; /* Ajuste la taille du logo */
+    height: auto;
+    margin-bottom: 20px; /* Espace entre le logo et le menu */
+}
+
+header nav {
+    margin-top: 10px; /* Espacement du menu par rapport au logo */
+}
+
+header nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+/* En-tête */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+header img {
+    width: 100px; /* Ajuste la taille du logo */
+    height: auto;
+    margin-bottom: 20px; /* Espace entre le logo et le menu */
+}
+
+header nav {
+    margin-top: 10px; /* Espacement du menu par rapport au logo */
+}
+
+header nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section principale */
+#connexion {
+    max-width: 500px;
+    margin: 50px auto; /* Centre le formulaire avec une marge supérieure */
+    background-color: white;
+    padding: 30px; /* Ajoute plus de padding pour les éléments */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+/* Titre */
+#connexion h2 {
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Formulaire */
+form {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+/* Champs d'entrée */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px; /* Plus d'espace à l'intérieur */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+/* Boutons */
+button {
+    width: 48%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Boutons avec un espacement entre eux */
+button[type="reset"] {
+    background-color: #ccc;
+}
+
+button[type="reset"]:hover {
+    background-color: #999;
+}

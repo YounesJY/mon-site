@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/login.css">
+    <title>Connexion</title>
+</head> 
+<body>
+    <script src="script/login.js"></script>
+
+    <header>
+        <img src="images/logo.png" alt="Logo du site" width="150">
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="register.html">Créer un compte</a>
+        </nav>
+    </header>
+
+    <!-- Formulaire de connexion -->
+    <section id="connexion">
+        <h2>Connexion</h2>
+        <form action="/login" method="post">
+            <table>
+                <tr>
+                    <td><label for="email-login">Adresse Email :</label></td>
+                    <td><input type="email" id="email-login" name="email" placeholder="Entrez votre email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password-login">Mot de passe :</label></td>
+                    <td><input type="password" id="password-login" name="password" placeholder="Entrez votre mot de passe" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit">Se connecter</button>
+                        <button type="reset">Effacer tout</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+</body>
+</html>

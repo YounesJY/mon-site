@@ -1,0 +1,83 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* En-tête et navigation */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center; /* Centre verticalement les éléments */
+    justify-content: space-between; /* Sépare le logo et le menu */
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+header nav {
+    display: flex; /* Alignement horizontal des liens */
+    gap: 15px; /* Espacement entre les liens */
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Section principale */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #007BFF;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background-color: #f0f8ff;  /* Bleu très clair pour la cohérence avec les autres éléments */
+    color: #1e3a8a;  /* Bleu foncé pour le texte */
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    border-top: 3px solid #3b82f6;  /* Ligne de séparation avec un bleu moyen */
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #3b82f6;  /* Bleu moyen pour le lien */
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #1e3a8a;  /* Bleu foncé au survol pour un effet de surbrillance */
+}

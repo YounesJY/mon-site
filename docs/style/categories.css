@@ -1,0 +1,104 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+header img {
+    width: 100px; /* Ajuste la taille du logo */
+    height: auto;
+    margin-bottom: 20px; /* Espace entre le logo et le menu */
+}
+
+header nav {
+    margin-top: 10px; /* Espacement du menu par rapport au logo */
+}
+
+header nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Section principale */
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Titre */
+main h2 {
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Description */
+main p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+td a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+td a:hover {
+    background-color: #0056b3;
+}
+
+/* Lignes alternées */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

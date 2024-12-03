@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/contact.css">
+
+    <title>Formulaire de Contact</title>
+</head>
+<body>
+    <script src="script/contact.js"></script>
+
+
+    <header>
+        <img src="images/logo.png" alt="Logo du site" width="150">
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="categories.html">Catégories</a>
+                <a href="tarification.html">Tarification</a>
+                <a href="profil.html">Profil</a>
+                <a href="communaute.html">Communauté</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Formulaire de Contact</h1>
+            <h2>Nous Contacter</h2>
+            <form id="contactForm" action="envoyer_message.php" method="post">
+                <table>
+                    <tr>
+                        <td><label for="nom">Nom :</label></td>
+                        <td><input type="text" id="nom" name="nom" placeholder="Votre nom" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email_contact">Email :</label></td>
+                        <td><input type="email" id="email_contact" name="email_contact" placeholder="Votre email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Message :</label></td>
+                        <td><textarea id="message" name="message" cols="60" rows="15" placeholder="Votre message" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Envoyer"></td>
+                    </tr>
+                </table>
+            </form>
+            
+        </section>
+    </main>
+</body>
+</html>

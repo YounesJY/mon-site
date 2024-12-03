@@ -1,0 +1,117 @@
+/* Style commun */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+/* En-tête */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+header img {
+    width: 100px; /* Ajuste la taille du logo */
+    height: auto;
+    margin-bottom: 20px; /* Espace entre le logo et le menu */
+}
+
+header nav {
+    margin-top: 10px; /* Espacement du menu par rapport au logo */
+}
+
+header nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteneur principal */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #0056b3;
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Liste des discussions */
+#discussion ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#discussion ul li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#discussion ul li strong {
+    font-size: 18px;
+    color: #0056b3;
+}
+
+/* Formulaires */
+form {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea,
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #003d80;
+}
